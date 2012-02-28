@@ -1,0 +1,51 @@
+###
+# siriproxy-zitat Plugin 
+
+ This is simple plugin which read a random quotation from zitate-online.de
+
+      Remember to put this plugins into the "./siriproxy/config.yml" file 
+
+###
+#
+ Ein einfaches Plugin, welches ein zufälliges Zitat von zitate-online.de vorliest
+ 
+      ladet das Plugin in der "./siriproxy/config.yml" datei !
+
+###
+# WIE ES FUNKTIONIERT 
+
+ sagt einfach einen Satz mit "Zitat" oder "Spruch" 
+
+###
+# Installation
+
+Ihr benötigt einen Siriproxy z.B. von Plamoni, JimmyKane oder Westbear:
+
+einfach folgende Zeilen in die User/xxx/.siriproxy/config.yml Datei einfügen
+(Vorsicht mit Zeilenumbrüchen in der .yml datei!!)
+
+- name: 'Zitat'
+  git: 'git://github.com/muhkuh0815/siriproxy-zitat.git'
+
+danach einmal Siriproxy bundle
+
+Falls ihr das Plugin für euch anpassen wollt empfehle ich die Plugindateien von github runterzuladen und sie in
+/User/xxx/Siriproxy/plugins/siriproxy-zitat
+zu kopieren.
+Der richtige Eintrag in der config.yml Datei wäre dann:
+
+- name: 'Zitat'
+  path: '/Users/EuerUserName/SiriProxy/plugins/siriproxy-zitat'
+
+### 
+# ToDo
+
+ all done
+
+###
+# Kontakt
+
+ bei Fragen Twitter: @muhkuh0815
+ oder github.com/muhkuh0815/siriproxy-zitat
+ noch kein Video
+ Youtube: http://www.youtube.com/user/muhkuh0816
