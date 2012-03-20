@@ -63,7 +63,7 @@ class SiriProxy::Plugin::Zitat< SiriProxy::Plugin
       if str == "z" #zitat
 	doc.gsub!(/(von zitate-online.de)/, "")
 	zit = doc.strip
-      elsif str = "w" #wissen
+      elsif str == "w" #wissen
 	  wisa = doc.match("Hinzugefügt am ")            #searches the beginning of the quote
 	  wisb = wisa.post_match.match("\t")             #searches for first 'tab' after this
 	  wisc = wisb.post_match.match("Eingereicht von ") # search for the end of the quote
